@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+
+}
+.container {
+    padding: 20px;
+    margin: 30px auto;
+    width: 680px;
+    max-height: 450px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.container p {
+    font-size: 14px;
+    color: rgba(78, 68, 68, 0.747);
+}
+
+.about {
+    width: 50%;
+}
+.container .about h2 {
+    margin-bottom: 20px;
+
+}
+
+.container .about p {
+    margin-bottom: 15px;
+}
+
+.add {
+    width: 40%;
+}
+
+.add .address  {
+    display: flex;
+}
+
+.container .add h3 {
+    margin: 40px 0px 20px 0px;
+}
+
+.container .add .address i {
+    margin-right: 10px;
+    opacity: 0.6;
+}
+
+
+.container .add .tele {
+    display: flex;
+    margin-top: 15px;
+}
+
+.container .add .tele i {
+    margin-right: 15px;
+    opacity: 0.6;
+    margin-bottom: 15px;
+}
+
+.input i {
+    color: blue;
+}
+
+.input a {
+    text-decoration: none;
+    border: 1px solid rgba(46, 39, 39, 0.425);
+    padding: 5px;
+    border-radius: 15px;
+    margin-right: 30px;
+}
+
+
+
+
+
+
